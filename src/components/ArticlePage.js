@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
-import { Link, useParams } from "react-router-dom";
+import { Card, Image } from "react-bootstrap";
+import { useParams } from "react-router-dom";
 import sanityClient from "../client";
 import Loader from "./Loader";
 import BlockContent from "@sanity/block-content-to-react";
